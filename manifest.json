@@ -1,4 +1,10 @@
 {
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "motivation@rissik.ru",
+         "strict_min_version": "48.0"
+      }
+   },
    "background": {
       "persistent": false,
       "scripts": [ "motivation.js" ]
