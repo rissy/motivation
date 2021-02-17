@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Lekton;
+  src: url(../fonts/Lekton-Regular.ttf);
+}
+
 body,
 html {
   margin: 0;
@@ -25,7 +30,7 @@ body {
 
 body, input {
   display: -webkit-flex;
-  font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
+  font-family: 'Lekton', sans-serif;
 }
 
 .age-label {
