@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>New Tab</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>New Tab</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<div id="dob-wrapper" class="dob-wrapper">
-  <form>
-    <h1 id="dob-label" class="age-label">When were you born?</h1>
+  <body>
+    <div id="dob-wrapper" class="dob-wrapper">
+      <form>
+        <h1 id="dob-label" class="age-label">When were you born?</h1>
 
-    <footer>
-      <input id="dob-input" name="dob" type="date">
-      <button type="submit">Motivate</button>
-    </footer>
-  <form>
-  </div>
+        <div>
+          <input id="dob-input" name="dob" type="date">
+          <button type="submit">Motivate</button>
+        </div>
+      <form>
+    </div>
 
-<div id="age-wrapper" class="age-wrapper">
-  <h1 class="age-label">AGE</h1>
-  <h2 class="count"><span id="year"></span><sup>.<span id="milliseconds"></span></sup></h2>
-</div>
+    <div id="age-wrapper" class="age-wrapper">
+      <h1 class="age-label">AGE</h1>
+      <h2 class="count">
+        <span id="year"></span><sup>.<span id="milliseconds"></span></sup>
+      </h2>
+    </div>
 
-<script src="app/app.js"></script>
-
-</body>
+    <script src="app/app.js"></script>
+  </body>
 </html>
