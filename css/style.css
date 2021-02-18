@@ -92,7 +92,7 @@ button {
   background-color: #0BE;
 }
 
-footer {
+.dob-form {
   padding-top: 0.5rem;
   display: -webkit-flex;
   -webkit-flex-direction: row;
