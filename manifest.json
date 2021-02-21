@@ -2,7 +2,7 @@
    "browser_specific_settings": {
       "gecko": {
          "id": "remotivation@rissik.ru",
-         "strict_min_version": "48.0"
+         "strict_min_version": "54.0"
       }
    },
    "chrome_url_overrides": {
