@@ -1,7 +1,7 @@
 Remotivation
 =
 
-Watch your age in real time.
+Motivate yourself for doing great things with Remotivation. With this add-on you can see your age with precision up to 9 decimal places every time when you open a new tab.
 
 ![](screenshot.png)
 
