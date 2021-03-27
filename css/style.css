@@ -28,7 +28,7 @@ body {
 }
 
 .age-label {
-  color: #B0B5B9;
+  color: #858585;
   font-size: 1.2rem;
   line-height: 1;
   margin: 0 0 0 2px;
@@ -59,18 +59,19 @@ input {
   border-width: 1px;
   border-style: solid;
   border-radius: 0.25rem;
-  border-color: #CCC;
-  background-color: #FFF;
+  border-color: #494949;
+  background-color: #EBEBEB;
+  color: #494949;
 }
 
 button {
   outline: none;
   display: block;
   cursor: pointer;
-  color: #FFF;
   border: none;
   border-radius: 0.25rem;
-  background-color: #0BE;
+  color: #FFF;
+  background-color: #858585;
 }
 
 .dob-form {
@@ -86,7 +87,22 @@ button {
   }
 
   .count {
-    color: #fff;
+    color: #EBEBEB;
+  }
+
+  input {
+    border-color: #1F1F1F;
+    background-color: #858585;
+    color: #EBEBEB;
+  }
+
+  button {
+    color: #EBEBEB;
+    background-color: #858585;
+  }
+
+  .age-label {
+    color: #B8B8B8;
   }
 }
 
